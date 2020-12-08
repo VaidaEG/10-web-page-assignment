@@ -65,6 +65,40 @@ body{
             li > a{
                 font-size: 22px;
             }
-            table{
-                margin-left: 20px;
+            table {
+                width: 70%;
+                margin: 0 auto;
             }
+                th {
+                    background-image: linear-gradient(#78AF46, #ACFF93);
+                    -webkit-background-image: linear-gradient(#78AF46, #ACFF93);
+                    -moz-background-image: linear-gradient(#78AF46, #ACFF93);
+                    -ms-background-image: linear-gradient(#78AF46, #ACFF93);
+                    -o-background-image: linear-gradient(#78AF46, #ACFF93);
+                    color: #FFFFFF;
+                    border: 1px solid #58FF26;
+                    border-radius: 5px 5px 0 0;
+                    border-bottom: 4px solid #58FF26;
+                    font-size: 20px;
+                    text-align: center;
+                    line-height: 24px;
+                }
+                th:first-of-type {
+                    text-align: left;
+                }
+                td {
+                    opacity: 0.8;
+                    text-align: center;
+                    font-size: 15px;
+                    line-height: 19px;
+                    padding: 10px;
+                    background-color: #E1FFDD;
+                    color: #3D443B;
+                    border-radius: 2px;
+                }
+                td:first-of-type {
+                    text-align: left;
+                }
+                td:hover {
+                    opacity: 1;
+                }
